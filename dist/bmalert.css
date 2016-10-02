@@ -67,12 +67,23 @@
     max-width: 92%;
   }
 }
-#spinner_container {
+#bmalert-logo {
+  text-align: center;
   position: relative;
   height: 160px;
   width: 160px;
 }
-#spinner_container svg {
+#bmalert-custom-logo {
+  display: none;
+  text-align: center;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  top: 40px;
+  left: 40px;
+}
+#bmalert-logo svg,
+#bmalert-custom-logo svg {
   position: absolute;
   top: 0;
   left: 0;
@@ -298,9 +309,6 @@
   -o-transition: all .5s ease;
   -ms-transition: all .5s ease;
   transition: all .5s ease;
-}
-#spinner_container {
-  text-align: center;
 }
 .dialog-container-BM {
   height: 24em;
